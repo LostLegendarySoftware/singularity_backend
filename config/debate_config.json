@@ -1,0 +1,71 @@
+{
+  "team": {
+    "name": "DEBATE",
+    "full_name": "16-Agent Debate System",
+    "memory_size": 1610612736,
+    "logic_cores": 96,
+    "logic_bases": 6,
+    "priority": "HIGH"
+  },
+  "agents": {
+    "total_agents": 16,
+    "cores_per_agent": 6,
+    "role_distribution": {
+      "proposer": 3,
+      "opponent": 3,
+      "analyst": 3,
+      "moderator": 2,
+      "validator": 2,
+      "synthesizer": 3
+    }
+  },
+  "debate_engine": {
+    "priority": "HIGH",
+    "consensus_threshold": 0.75,
+    "max_debate_duration": 300,
+    "argument_timeout": 30.0,
+    "voting_enabled": true
+  },
+  "debate_phases": {
+    "initialization": {
+      "enabled": true,
+      "timeout": 10
+    },
+    "argument_presentation": {
+      "enabled": true,
+      "timeout": 60
+    },
+    "cross_examination": {
+      "enabled": true,
+      "timeout": 90
+    },
+    "rebuttal": {
+      "enabled": true,
+      "timeout": 60
+    },
+    "consensus_building": {
+      "enabled": true,
+      "timeout": 60
+    },
+    "final_decision": {
+      "enabled": true,
+      "timeout": 30
+    },
+    "validation": {
+      "enabled": true,
+      "timeout": 30
+    }
+  },
+  "visualization": {
+    "priority": "MEDIUM",
+    "enabled": true,
+    "real_time_updates": true,
+    "history_retention": 1000
+  },
+  "consensus_algorithm": {
+    "method": "hybrid",
+    "validation_enabled": true,
+    "confidence_threshold": 0.7,
+    "dissent_tracking": true
+  }
+}

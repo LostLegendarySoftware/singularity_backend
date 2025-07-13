@@ -1,0 +1,79 @@
+{
+  "team": {
+    "name": "ARIEL",
+    "full_name": "Advanced Reinforced Incentives & Emotions Learning",
+    "memory_size": 1610612736,
+    "logic_cores": 96,
+    "logic_bases": 6,
+    "priority": "HIGH"
+  },
+  "capabilities": {
+    "parameter_capacity": 500000000000000,
+    "compression_ratio": 1000.0,
+    "quantum_memory_enabled": true,
+    "emotional_modeling": true,
+    "self_healing": true,
+    "governance_rules": true
+  },
+  "quantum_memory": {
+    "size": 1000,
+    "compression_active": true,
+    "entanglement_enabled": true,
+    "optimization_enabled": true
+  },
+  "emotional_state": {
+    "default_values": {
+      "joy": 0.5,
+      "sadness": 0.5,
+      "anger": 0.5,
+      "fear": 0.5,
+      "surprise": 0.5,
+      "disgust": 0.5,
+      "trust": 0.5,
+      "anticipation": 0.5,
+      "confidence": 0.5,
+      "curiosity": 0.5,
+      "satisfaction": 0.5,
+      "frustration": 0.5,
+      "stability": 0.5,
+      "adaptability": 0.5,
+      "resilience": 0.5
+    },
+    "update_frequency": 1.0,
+    "normalization_enabled": true
+  },
+  "self_healing": {
+    "enabled": true,
+    "strategies": [
+      "memory_corruption",
+      "performance_degradation",
+      "resource_exhaustion",
+      "communication_failure",
+      "quantum_decoherence"
+    ],
+    "detection_threshold": 0.1,
+    "healing_timeout": 30.0
+  },
+  "governance": {
+    "rules_enabled": true,
+    "default_rules": {
+      "memory_usage_limit": {
+        "limit": 0.9,
+        "action": "throttle"
+      },
+      "cpu_usage_limit": {
+        "limit": 0.95,
+        "action": "balance"
+      },
+      "error_rate_limit": {
+        "limit": 0.1,
+        "action": "investigate"
+      },
+      "performance_threshold": {
+        "limit": 0.7,
+        "action": "optimize"
+      }
+    },
+    "enforcement_enabled": true
+  }
+}
